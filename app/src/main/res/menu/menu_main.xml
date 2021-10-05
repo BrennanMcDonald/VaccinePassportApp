@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="sh.brennan.universalvaccinepassport.android.MainActivity">action_add_passport
+    <item
+        android:id="@+id/action_add_passport"
+        android:icon="@drawable/plus"
+        android:orderInCategory="99"
+        android:title="@string/action_add_passport"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_verify"
+        android:orderInCategory="99"
+        android:title="@string/action_verify"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

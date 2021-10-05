@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Vaccine Record</string>
+    <string name="action_verify">Verify Passport</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_scanner">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="KEY_DATABASE_NAME">key-database</string>
+    <string name="PASSPORT_DATABASE_NAME">passport-database</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="hello_world">Hello World</string>
+    <string name="set_passport_name">Set Passport Name</string>
+    <string name="fragment_nickname_data">FRAGMENT_NICKNAME_DATA</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_layout">FRAGMENT_LAYOUT</string>
+    <string name="VERIFY_PASSPORT_FLAG">VERIFY_PASSPORT_FLAG</string>
+    <string name="action_add_passport">Add Passport</string>
+    <string name="VAX_PASSPORT_PREFS">VAX_PASSPORT_PREFS</string>
+    <string name="FIRST_LAUNCH_PREF">FIRST_LAUNCH</string>
+
+    <string name="appwidget_text">Passport</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">A widget to quickly access the user\'s vaccine passport(s)</string>
+    <string name="appwidget_prefix_default">Passport</string>
+    <string name="configure">Configure</string>
+    <string name="FULLY_VACCINATED">Passport is valid and person is fully vaccinated</string>
+    <string name="POSSIBLE_FORGERY">Invalid passport, possibly a forgery.</string>
+</resources>

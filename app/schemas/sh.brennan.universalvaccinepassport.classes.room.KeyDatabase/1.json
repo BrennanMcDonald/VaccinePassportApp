@@ -1,0 +1,70 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "3fff3a9abe73d7f32d8c70b31aba0b50",
+    "entities": [
+      {
+        "tableName": "Key",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`kid` TEXT NOT NULL, `kty` TEXT NOT NULL, `use` TEXT NOT NULL, `alg` TEXT NOT NULL, `crv` TEXT NOT NULL, `x` TEXT NOT NULL, `y` TEXT NOT NULL, PRIMARY KEY(`kid`))",
+        "fields": [
+          {
+            "fieldPath": "kid",
+            "columnName": "kid",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "kty",
+            "columnName": "kty",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "use",
+            "columnName": "use",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "alg",
+            "columnName": "alg",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "crv",
+            "columnName": "crv",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "x",
+            "columnName": "x",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "y",
+            "columnName": "y",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "kid"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '3fff3a9abe73d7f32d8c70b31aba0b50')"
+    ]
+  }
+}
