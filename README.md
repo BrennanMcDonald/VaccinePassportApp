@@ -3,8 +3,6 @@
 This app aims to be an alternative to existing single province scanner apps, allowing users to scan SHC QR codes from multiple regions with ease.
 
 ## Structure
-
-sh.brennan.universalpassport
  - analyzers
    - MLKit analyzers for image processing
  - android
