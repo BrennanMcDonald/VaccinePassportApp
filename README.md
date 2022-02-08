@@ -1,5 +1,7 @@
 # VaccinePassportApp
 
+https://play.google.com/store/apps/details?id=sh.brennan.universalvaccinepassport&hl=en_CA&gl=US
+
 This app aims to be an alternative to existing single province scanner apps, allowing users to scan SHC QR codes from multiple regions with ease.
 
 ## Structure
